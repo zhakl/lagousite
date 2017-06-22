@@ -1,0 +1,44 @@
+@charset "utf-8";
+@import "base";
+html{
+  background: #018d66;
+  padding: 0.133rem;
+  @include fontFlex(14);
+}
+.email{
+  height: 0.8rem;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0.066rem 0.066rem 0 0;
+}
+.password{
+  height: 0.8rem;
+  border-radius: 0 0 0.066rem 0.066rem;
+}
+.enroll{
+  height: 0.8rem;
+  border-radius: 0.066rem;
+  background: #0ac599;
+  color: #FFF;
+  margin-top: 0.266rem;
+  @include fontFlex(20);
+}
+.noAccount{
+  margin-top:0.4rem;
+  @include fontFlex(12);
+  color: #0ac599;
+}
+.register-but{
+  text-decoration: none;
+}
+.register{
+  height: 0.8rem;
+  border-radius: 0.066rem;
+  background:#018d67 ;
+  border:1px solid #0ac599;
+  color: #0ac599;
+  margin-top:0.133rem;
+  @include fontFlex(20);
+}
+.mint-field-core{
+  @include fontFlex(14);
+}

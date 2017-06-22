@@ -21,5 +21,5 @@
     }
 </script>
 <style>
-    @import '../assets/enroll.css';
+    @import '../assets/index.css';
 </style>

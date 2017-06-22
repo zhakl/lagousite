@@ -1,0 +1,63 @@
+html {
+  background: #018d66;
+  padding: 0.133rem;
+  font-size: 14px; }
+  [data-dpr="2"] html {
+    font-size: 28px; }
+  [data-dpr="3"] html {
+    font-size: 42px; }
+
+.email {
+  height: 0.8rem;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0.066rem 0.066rem 0 0; }
+
+.password {
+  height: 0.8rem;
+  border-radius: 0 0 0.066rem 0.066rem; }
+
+.enroll {
+  height: 0.8rem;
+  border-radius: 0.066rem;
+  background: #0ac599;
+  color: #FFF;
+  margin-top: 0.266rem;
+  font-size: 20px; }
+  [data-dpr="2"] .enroll {
+    font-size: 40px; }
+  [data-dpr="3"] .enroll {
+    font-size: 60px; }
+
+.noAccount {
+  margin-top: 0.4rem;
+  font-size: 12px;
+  color: #0ac599; }
+  [data-dpr="2"] .noAccount {
+    font-size: 24px; }
+  [data-dpr="3"] .noAccount {
+    font-size: 36px; }
+
+.register-but {
+  text-decoration: none; }
+
+.register {
+  height: 0.8rem;
+  border-radius: 0.066rem;
+  background: #018d67;
+  border: 1px solid #0ac599;
+  color: #0ac599;
+  margin-top: 0.133rem;
+  font-size: 20px; }
+  [data-dpr="2"] .register {
+    font-size: 40px; }
+  [data-dpr="3"] .register {
+    font-size: 60px; }
+
+.mint-field-core {
+  font-size: 14px; }
+  [data-dpr="2"] .mint-field-core {
+    font-size: 28px; }
+  [data-dpr="3"] .mint-field-core {
+    font-size: 42px; }
+
+/*# sourceMappingURL=index.css.map */
