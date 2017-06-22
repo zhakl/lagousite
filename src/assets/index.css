@@ -51,9 +51,15 @@ html, body {
   -o-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box; }
+  .wrap .username {
+    height: 1.3rem;
+    border-radius: 0.066rem 0.066rem 0 0; }
   .wrap .email {
     height: 1.3rem;
     border-radius: 0.066rem 0.066rem 0 0; }
+  .wrap .password {
+    height: 1.3rem;
+    border-radius: 0 0 0.066rem 0.066rem; }
   .wrap .password {
     height: 1.3rem;
     border-radius: 0 0 0.066rem 0.066rem; }
@@ -85,7 +91,6 @@ html, body {
     border-radius: 0.066rem;
     background: #018d67;
     border: 1px solid #0ac599;
-    color: #0ac599;
     margin-top: 0.133rem;
     font-size: 20px;
     color: #fff; }

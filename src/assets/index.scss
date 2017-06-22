@@ -10,9 +10,17 @@
     padding: 0.5rem 0;
     margin: 0 auto;
     @include boxSizing;
+    .username {
+        height: 1.3rem;
+        border-radius: 0.066rem 0.066rem 0 0;
+    }
     .email {
         height: 1.3rem;
         border-radius: 0.066rem 0.066rem 0 0;
+    }
+    .password {
+        height: 1.3rem;
+        border-radius: 0 0 0.066rem 0.066rem;
     }
     .password {
         height: 1.3rem;
@@ -42,7 +50,6 @@
         border-radius: 0.066rem;
         background: #018d67;
         border: 1px solid #0ac599;
-        color: #0ac599;
         margin-top: 0.133rem;
         @include fontFlex(20);
         color: #fff;
