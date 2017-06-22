@@ -32,7 +32,6 @@ module.exports = function (app) {
      * 注册
      */
     app.post('/register', function (req, res, next) {
-        console.log(req.body.phone)
         var userfalg = true;
         user.getUsers(function (data) {
             if (data.status) {
