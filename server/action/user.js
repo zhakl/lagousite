@@ -75,12 +75,12 @@ module.exports = function (app) {
             if (req.session.user != undefined) {
                 for (let i = 0; i < data.data.length; i++) {
                     if (req.session.user == data.data[i].username) {
-                        res.send({session: req.session.user, status: true});
+                        res.send({status: true, data: {id: data.data[i].id, name: req.session.user, success: 1}});
                         break;
                     }
                 }
             } else {
-                res.send({status: false});
+                res.send({status: true, data: {user, success: 0}});
             }
         })
     });
