@@ -18,14 +18,11 @@
         height: 1.3rem;
         border-radius: 0.066rem 0.066rem 0 0;
     }
-    .password {
+     .password {
         height: 1.3rem;
         border-radius: 0 0 0.066rem 0.066rem;
     }
-    .password {
-        height: 1.3rem;
-        border-radius: 0 0 0.066rem 0.066rem;
-    }
+
     .enroll {
         height: 1.3rem;
         border-radius: 0.066rem;
@@ -57,5 +54,8 @@
     .mint-field-core {
         text-indent: 1em;
         @include fontFlex(14);
+    }
+    .mintui{
+        @include fontFlex(25);
     }
 }

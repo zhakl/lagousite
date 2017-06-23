@@ -60,9 +60,6 @@ html, body {
   .wrap .password {
     height: 1.3rem;
     border-radius: 0 0 0.066rem 0.066rem; }
-  .wrap .password {
-    height: 1.3rem;
-    border-radius: 0 0 0.066rem 0.066rem; }
   .wrap .enroll {
     height: 1.3rem;
     border-radius: 0.066rem;
@@ -105,5 +102,11 @@ html, body {
       font-size: 28px; }
     [data-dpr="3"] .wrap .mint-field-core {
       font-size: 42px; }
+  .wrap .mintui {
+    font-size: 25px; }
+    [data-dpr="2"] .wrap .mintui {
+      font-size: 50px; }
+    [data-dpr="3"] .wrap .mintui {
+      font-size: 75px; }
 
 /*# sourceMappingURL=index.css.map */
