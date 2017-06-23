@@ -80,7 +80,7 @@ module.exports = function (app) {
                     }
                 }
             } else {
-                res.send({status: true, data: {user, success: 0}});
+                res.send({status: true, data: {name: '', success: 0}});
             }
         })
     });
