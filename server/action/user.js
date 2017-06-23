@@ -36,7 +36,11 @@ module.exports = function (app) {
         user.getUsers(function (data) {
             if (data.status) {
                 for (let i = 0; i < data.data.length; i++) {
-                    if (req.body.phone == data.data[i].phone) {
+                    if (req.body.username == data.data[i].username) {
+                        res.send({status: data.status, data: {id: data.id, success: 0, msg: "该用户名已经注册了"}});
+                        userfalg = false;
+                        break;
+                    } else if (req.body.phone == data.data[i].phone) {
                         res.send({status: data.status, data: {id: data.id, success: 0, msg: "该手机号码已经注册了"}});
                         userfalg = false;
                         break;
