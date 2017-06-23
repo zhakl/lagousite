@@ -52,17 +52,13 @@ html, body {
   -ms-box-sizing: border-box;
   box-sizing: border-box; }
   .wrap .username {
-    height: 1.3rem;
-    border-radius: 0.066rem 0.066rem 0 0; }
+    height: 1.3rem; }
   .wrap .email {
-    height: 1.3rem;
-    border-radius: 0.066rem 0.066rem 0 0; }
+    height: 1.3rem; }
   .wrap .password {
-    height: 1.3rem;
-    border-radius: 0 0 0.066rem 0.066rem; }
+    height: 1.3rem; }
   .wrap .enroll {
     height: 1.3rem;
-    border-radius: 0.066rem;
     background: #0ac599;
     color: #FFF;
     margin-top: 0.266rem;
@@ -85,10 +81,9 @@ html, body {
     text-decoration: none; }
   .wrap .register {
     height: 1.3rem;
-    border-radius: 0.066rem;
     background: #018d67;
     border: 1px solid #0ac599;
-    margin-top: 0.133rem;
+    margin-top: 0.8rem;
     font-size: 20px;
     color: #fff; }
     [data-dpr="2"] .wrap .register {
@@ -96,7 +91,6 @@ html, body {
     [data-dpr="3"] .wrap .register {
       font-size: 60px; }
   .wrap .mint-field-core {
-    text-indent: 1em;
     font-size: 14px; }
     [data-dpr="2"] .wrap .mint-field-core {
       font-size: 28px; }
