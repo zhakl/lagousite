@@ -52,11 +52,14 @@ html, body {
   -ms-box-sizing: border-box;
   box-sizing: border-box; }
   .wrap .username {
-    height: 1.3rem; }
+    height: 1.3rem;
+    margin-bottom: 1rem; }
   .wrap .email {
-    height: 1.3rem; }
+    height: 1.3rem;
+    margin-bottom: 1rem; }
   .wrap .password {
-    height: 1.3rem; }
+    height: 1.3rem;
+    margin-bottom: 1rem; }
   .wrap .enroll {
     height: 1.3rem;
     background: #0ac599;

@@ -1,0 +1,9 @@
+@charset "utf-8";
+@import "base";
+html, body{
+  background: #FFF;
+}
+.mint-header.is-fixed{
+  background:#018d67 ;
+  @include fontFlex(18);
+}

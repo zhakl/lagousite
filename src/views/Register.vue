@@ -36,6 +36,7 @@
                 var self = this;
                 if (!/^[a-zA-Z0-9_]{6,16}$/.test(self.username)) {
                     MessageBox('提示', '用户名为6到16的数字或者汉字');
+                    return false;
                 }
                 else if (!/^1[34578]\d{9}$/.test(self.phone)) {
                     MessageBox('提示', '手机号码不正确或者为空')
@@ -51,16 +52,16 @@
             fetchData(){
                 var self = this;
                 self.$http.post('http://localhost:3000/register', {
-                        username: this.username,
-                        phone: this.phone,
-                        password: this.password
+                        username: self.username,
+                        phone: self.phone,
+                        password: self.password
                     }
                 ).then(function (res) {
                     if (res.data.status) {
                         if (!res.data.data.success) {
-                            MessageBox('提示', '该手机号码已经被注册')
+                            MessageBox('提示', res.data.data.msg);
                         } else {
-                            MessageBox.alert('注册成功').then(action => {
+                            MessageBox.alert(res.data.data.msg).then(action => {
                                 self.$router.push({name: "enroll"});
                             });
                         }
@@ -72,7 +73,7 @@
     }
 </script>
 <style scoped>
-    @import '../assets/index.css';
+    @import '../assets/style/index.css';
     .password{
         position: relative;
     }
