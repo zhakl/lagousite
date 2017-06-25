@@ -1,0 +1,58 @@
+@charset "utf-8";
+@import "base";
+#app {
+    height: 100%;  
+}
+
+.wrap {
+    width: 95%;
+    height: 100%;
+    padding: 0.5rem 0;
+    margin: 0 auto;
+    @include boxSizing;
+    .username {
+        height: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    .email {
+        height: 1.3rem;
+        margin-bottom: 1rem;
+    }
+     .password {
+        height: 1.3rem;
+         margin-bottom: 1rem;
+    }
+
+    .enroll {
+        height: 1.3rem;
+        background: #0ac599;
+        color: #FFF;
+        margin-top: 0.266rem;
+        @include fontFlex(20);
+    }
+    .noAccount {
+        margin-top: 0.4rem;
+        @include fontFlex(12);
+        color: #0ac599;
+        a {
+            color: #0ac599;
+        }
+    }
+    .register-but {
+        text-decoration: none;
+    }
+    .register {
+        height: 1.3rem;
+        background: #018d67;
+        border: 1px solid #0ac599;
+        margin-top: 0.8rem;
+        @include fontFlex(20);
+        color: #fff;
+    }
+    .mint-field-core {
+        @include fontFlex(14);
+    }
+    .mintui{
+        @include fontFlex(25);
+    }
+}

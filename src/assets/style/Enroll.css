@@ -1,0 +1,109 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+html * {
+  outline: 0;
+  -webkit-text-size-adjust: none !important;
+  -webkit-tap-highlight-color: transparent !important; }
+
+html, body {
+  font-family: sans-serif; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  margin: 0;
+  padding: 0; }
+
+button, input, select, textarea {
+  font-size: 100%;
+  border: none; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #018d66;
+  font-size: 14px; }
+  [data-dpr="2"] html, [data-dpr="2"] body {
+    font-size: 28px; }
+  [data-dpr="3"] html, [data-dpr="3"] body {
+    font-size: 42px; }
+
+@media (min-width: 1400px) {
+  html {
+    background: #666; }
+
+  body {
+    max-width: 480px;
+    margin: 0 auto;
+    position: relative;
+    background: #018d66; } }
+#app {
+  height: 100%; }
+
+.wrap {
+  width: 95%;
+  height: 100%;
+  padding: 0.5rem 0;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+  .wrap .username {
+    height: 1.3rem;
+    margin-bottom: 1rem; }
+  .wrap .email {
+    height: 1.3rem;
+    margin-bottom: 1rem; }
+  .wrap .password {
+    height: 1.3rem;
+    margin-bottom: 1rem; }
+  .wrap .enroll {
+    height: 1.3rem;
+    background: #0ac599;
+    color: #FFF;
+    margin-top: 0.266rem;
+    font-size: 20px; }
+    [data-dpr="2"] .wrap .enroll {
+      font-size: 40px; }
+    [data-dpr="3"] .wrap .enroll {
+      font-size: 60px; }
+  .wrap .noAccount {
+    margin-top: 0.4rem;
+    font-size: 12px;
+    color: #0ac599; }
+    [data-dpr="2"] .wrap .noAccount {
+      font-size: 24px; }
+    [data-dpr="3"] .wrap .noAccount {
+      font-size: 36px; }
+    .wrap .noAccount a {
+      color: #0ac599; }
+  .wrap .register-but {
+    text-decoration: none; }
+  .wrap .register {
+    height: 1.3rem;
+    background: #018d67;
+    border: 1px solid #0ac599;
+    margin-top: 0.8rem;
+    font-size: 20px;
+    color: #fff; }
+    [data-dpr="2"] .wrap .register {
+      font-size: 40px; }
+    [data-dpr="3"] .wrap .register {
+      font-size: 60px; }
+  .wrap .mint-field-core {
+    font-size: 14px; }
+    [data-dpr="2"] .wrap .mint-field-core {
+      font-size: 28px; }
+    [data-dpr="3"] .wrap .mint-field-core {
+      font-size: 42px; }
+  .wrap .mintui {
+    font-size: 25px; }
+    [data-dpr="2"] .wrap .mintui {
+      font-size: 50px; }
+    [data-dpr="3"] .wrap .mintui {
+      font-size: 75px; }
+
+/*# sourceMappingURL=Enroll.css.map */

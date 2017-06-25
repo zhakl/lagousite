@@ -27,7 +27,13 @@
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+@mixin  backgroundClip{
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  -o--background-clip: padding-box;
+  -ms-background-clip: padding-box;
+  background-clip: padding-box;
+}
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
