@@ -1,11 +1,16 @@
 .DS_Store
-node_modules/
+node_modules
+dist
 src/upload
 .idea
 .settings
+<<<<<<< HEAD
 server/node_modules
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 dist
 
+=======
+.project
+>>>>>>> 1358178e08ab0efd60ce41d93dc934cbbc8ee41e

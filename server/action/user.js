@@ -80,7 +80,7 @@ module.exports = function (app) {
                     }
                 }
             } else {
-                res.send({status: true, data: {user, success: 0}});
+                res.send({status: true, data: {name: '', success: 0}});
             }
         })
     });
@@ -90,7 +90,7 @@ module.exports = function (app) {
      */
     app.post('/exit', function (req, res, next) {
         req.session.user = '';
-        res.send({session: req.session.user, status: false});
+        res.send({status: true, data: {name: '', success: 0}});
         res.end();
     });
 

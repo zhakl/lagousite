@@ -7,12 +7,21 @@
             <a href="#">简历></a>
         </div>
         <div class="deliver">
+<<<<<<< HEAD
             <ul>
                 <li>投递</li>
                 <li class="active">面试</li>
                 <li>邀约</li>
                 <li class="active">收藏</li>
             </ul>
+=======
+           <ul>
+               <li>投递</li>
+               <li class="active">面试</li>
+               <li>邀约</li>
+               <li class="active">收藏</li>
+           </ul>
+>>>>>>> 1358178e08ab0efd60ce41d93dc934cbbc8ee41e
         </div>
         <div class="SignOut">
             <p>退出登录</p>
@@ -21,6 +30,7 @@
 
 </template>
 <script>
+<<<<<<< HEAD
     import {Header, Footer} from '../components'
     export default {
         name: 'index',
@@ -28,6 +38,10 @@
             Header,
             Footer,
         },
+=======
+//    export default{
+//        name: 'index',
+>>>>>>> 1358178e08ab0efd60ce41d93dc934cbbc8ee41e
 //        data(){
 //
 //        },
@@ -43,8 +57,12 @@
 //            }
 //        },
 
+<<<<<<< HEAD
 
     }
+=======
+//    }
+>>>>>>> 1358178e08ab0efd60ce41d93dc934cbbc8ee41e
 </script>
 <style>
     @import "../assets/style/index.css";
