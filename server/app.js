@@ -63,7 +63,7 @@ app.use(function (err, req, res, next) {
 
 routes(app);
 
-app.listen(3000, function () {
-  console.log('listen 3000')
+app.listen(80, function () {
+  console.log('listen 80')
 });
 
