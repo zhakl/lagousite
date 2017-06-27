@@ -18,7 +18,7 @@ const router = new VueRouter({
     routes: [
         {path: '/', component: Enroll, name: 'enroll'},
         {path: '/index', component: Index, name: 'index'},
-        {path: '/enroll', component: Enroll, name: 'enroll'},
+        {path: '/enroll', component: Enroll, name: 'enroll2'},
         {path: '/seek', component: Seek, name: 'seek'},
         {path: '/position', component: Position, name: 'position'},
         {path: '/register', component: Register, name: 'register'},
