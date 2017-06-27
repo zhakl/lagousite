@@ -15,21 +15,6 @@
                     <span>我的</span>
                 </li>
             </ul>
-
-
-
-
-
-
-
-            <!--<mt-tab-item id="tab2" class="mint-tab-item-icon2" >-->
-            <!--<img slot="icon" src="" >-->
-            <!--搜索-->
-            <!--</mt-tab-item>-->
-            <!--<mt-tab-item id="tab3">-->
-            <!--<img slot="icon" src="" class="mint-tab-item-icon3">-->
-            <!--我的-->
-            <!--</mt-tab-item>-->
         </div>
     </div>
 </template>
