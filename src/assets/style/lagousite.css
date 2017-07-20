@@ -1,0 +1,329 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+html * {
+  outline: 0;
+  -webkit-text-size-adjust: none !important;
+  -webkit-tap-highlight-color: transparent !important; }
+
+html, body {
+  font-family: sans-serif; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+  margin: 0;
+  padding: 0; }
+
+button, input, select, textarea {
+  font-size: 100%;
+  border: none; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #018d66;
+  font-size: 14px; }
+  [data-dpr="2"] html, [data-dpr="2"] body {
+    font-size: 28px; }
+  [data-dpr="3"] html, [data-dpr="3"] body {
+    font-size: 42px; }
+
+@media (min-width: 1400px) {
+  html {
+    background: #666; }
+
+  body {
+    max-width: 480px;
+    margin: 0 auto;
+    position: relative;
+    background: #018d66; } }
+.mint-header.is-fixed {
+  background: #018d67;
+  font-size: 18px; }
+  [data-dpr="2"] .mint-header.is-fixed {
+    font-size: 36px; }
+  [data-dpr="3"] .mint-header.is-fixed {
+    font-size: 54px; }
+
+.lagousite-Footers {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  border-top: 1px solid #e8e8e8;
+  color: #c2cfcc;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 18px; }
+  [data-dpr="2"] .lagousite-Footers {
+    font-size: 36px; }
+  [data-dpr="3"] .lagousite-Footers {
+    font-size: 54px; }
+
+.lagousite-Footers > .tabbar {
+  text-align: center; }
+
+.lagousite-Footers > .tabbar > ul > .tab-item {
+  color: #c2cfcc;
+  list-style: none;
+  background-color: #f6f6f6;
+  width: calc(100%/3);
+  height: 45px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 18px;
+  float: left; }
+
+.lagousite-Footers > .tabbar > ul > .tab-item:hover {
+  background-color: #e7f3f0; }
+
+.lagousite-Footers > .tabbar > ul > .tab-item > p {
+  width: 24px;
+  height: 24px;
+  margin: 7px auto;
+  background: url(../../assets/img/icon2.png) no-repeat -30px 4.5px;
+  background-size: 250px 250px;
+  float: left; }
+
+.lagousite-Footers > .tabbar > ul > .tab-item:hover > p {
+  margin: 14px auto;
+  background: url(../../assets/img/icon2.png) no-repeat -30px -18.5px;
+  background-size: 250px 250px; }
+
+.lagousite-Footers > .tabbar > ul > .tab-item > span {
+  margin: 0 auto;
+  float: left; }
+
+.lagousite-Footers > .tabbar > ul > .tab-item:hover span {
+  color: #00b38a; }
+
+.lagousite-Footers > .tabbar > ul > .tab-item-two > p {
+  background: url(../../assets/img/icon2.png) no-repeat -9px 2.5px;
+  background-size: 250px 300px; }
+
+.lagousite-Footers > .tabbar > ul > .tab-item-two:hover > p {
+  background: url(../../assets/img/icon2.png) no-repeat -9px -18.5px;
+  background-size: 250px 250px; }
+
+.lagousite-Footers > .tabbar > ul > .tab-item-three > p {
+  background: url(../../assets/img/icon2.png) no-repeat -47px 4.5px;
+  background-size: 250px 250px; }
+
+.lagousite-Footers > .tabbar > ul > .tab-item-three:hover > p {
+  margin: 14px auto;
+  background: url(../../assets/img/icon2.png) no-repeat -47px -18.5px;
+  background-size: 250px 250px; }
+
+.lagousite-index {
+  padding: 15px; }
+
+.lagousite-index .HeaderPortrait > p {
+  height: 81px;
+  width: 81px;
+  margin: 60px auto;
+  -webkit-border-radius: 40.5px;
+  -moz-border-radius: 40.5px;
+  border-radius: 40.5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  -o--background-clip: padding-box;
+  -ms-background-clip: padding-box;
+  background-clip: padding-box;
+  overflow: hidden;
+  background-color: #f6f6f6; }
+
+.lagousite-index .HeaderPortrait > p > span {
+  width: 72px;
+  height: 72px;
+  display: block;
+  margin: 4px 0 0 4px;
+  -webkit-border-radius: 36px;
+  -moz-border-radius: 36px;
+  border-radius: 36px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  -o--background-clip: padding-box;
+  -ms-background-clip: padding-box;
+  background-clip: padding-box; }
+
+.lagousite-index .HeaderPortrait > a {
+  color: #00b38a;
+  font-size: 16px;
+  position: absolute;
+  right: 15px;
+  top: 60px;
+  text-decoration: none; }
+
+.lagousite-index .deliver > ul > li {
+  list-style: none;
+  float: left;
+  width: calc((100% - 15px)/2);
+  height: 86px;
+  background: #1fc8a1;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 86px;
+  margin-right: 15px;
+  color: #FFF;
+  font-size: 18px; }
+  [data-dpr="2"] .lagousite-index .deliver > ul > li {
+    font-size: 36px; }
+  [data-dpr="3"] .lagousite-index .deliver > ul > li {
+    font-size: 54px; }
+
+.lagousite-index .deliver > ul > .active {
+  margin-right: 0; }
+
+.lagousite-index .SignOut {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #1fc8a1;
+  color: #fff;
+  font-size: 18px;
+  clear: both; }
+  [data-dpr="2"] .lagousite-index .SignOut {
+    font-size: 36px; }
+  [data-dpr="3"] .lagousite-index .SignOut {
+    font-size: 54px; }
+
+.lagousite-Enroll {
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+  .lagousite-Enroll .username {
+    height: 1.3rem;
+    margin-bottom: 1rem; }
+  .lagousite-Enroll .email {
+    height: 1.3rem;
+    margin-bottom: 1rem; }
+  .lagousite-Enroll .password {
+    height: 1.3rem;
+    margin-bottom: 1rem; }
+  .lagousite-Enroll .enroll {
+    height: 1.3rem;
+    background: #0ac599;
+    color: #FFF;
+    margin-top: 0.266rem;
+    font-size: 20px; }
+    [data-dpr="2"] .lagousite-Enroll .enroll {
+      font-size: 40px; }
+    [data-dpr="3"] .lagousite-Enroll .enroll {
+      font-size: 60px; }
+  .lagousite-Enroll .noAccount {
+    margin-top: 0.4rem;
+    font-size: 12px;
+    color: #0ac599; }
+    [data-dpr="2"] .lagousite-Enroll .noAccount {
+      font-size: 24px; }
+    [data-dpr="3"] .lagousite-Enroll .noAccount {
+      font-size: 36px; }
+    .lagousite-Enroll .noAccount a {
+      color: #0ac599; }
+  .lagousite-Enroll .register-but {
+    text-decoration: none; }
+  .lagousite-Enroll .register {
+    height: 1.3rem;
+    background: #018d67;
+    border: 1px solid #0ac599;
+    margin-top: 0.8rem;
+    font-size: 20px;
+    color: #fff; }
+    [data-dpr="2"] .lagousite-Enroll .register {
+      font-size: 40px; }
+    [data-dpr="3"] .lagousite-Enroll .register {
+      font-size: 60px; }
+  .lagousite-Enroll .mint-field-core {
+    font-size: 14px; }
+    [data-dpr="2"] .lagousite-Enroll .mint-field-core {
+      font-size: 28px; }
+    [data-dpr="3"] .lagousite-Enroll .mint-field-core {
+      font-size: 42px; }
+  .lagousite-Enroll .mintui {
+    font-size: 25px; }
+    [data-dpr="2"] .lagousite-Enroll .mintui {
+      font-size: 50px; }
+    [data-dpr="3"] .lagousite-Enroll .mintui {
+      font-size: 75px; }
+
+.lagousite-Register {
+  width: 95%;
+  height: 100%;
+  margin: 20px auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+  .lagousite-Register .username {
+    height: 1.3rem;
+    margin-bottom: 1rem; }
+  .lagousite-Register .email {
+    height: 1.3rem;
+    margin-bottom: 1rem; }
+  .lagousite-Register .password {
+    height: 1.3rem;
+    margin-bottom: 1rem; }
+  .lagousite-Register .enroll {
+    height: 1.3rem;
+    background: #0ac599;
+    color: #FFF;
+    margin-top: 0.266rem;
+    font-size: 20px; }
+    [data-dpr="2"] .lagousite-Register .enroll {
+      font-size: 40px; }
+    [data-dpr="3"] .lagousite-Register .enroll {
+      font-size: 60px; }
+  .lagousite-Register .noAccount {
+    margin-top: 0.4rem;
+    font-size: 12px;
+    color: #0ac599; }
+    [data-dpr="2"] .lagousite-Register .noAccount {
+      font-size: 24px; }
+    [data-dpr="3"] .lagousite-Register .noAccount {
+      font-size: 36px; }
+    .lagousite-Register .noAccount a {
+      color: #0ac599; }
+  .lagousite-Register .register-but {
+    text-decoration: none; }
+  .lagousite-Register .register {
+    height: 1.3rem;
+    background: #018d67;
+    border: 1px solid #0ac599;
+    margin-top: 0.8rem;
+    font-size: 20px;
+    color: #fff; }
+    [data-dpr="2"] .lagousite-Register .register {
+      font-size: 40px; }
+    [data-dpr="3"] .lagousite-Register .register {
+      font-size: 60px; }
+  .lagousite-Register .mint-field-core {
+    font-size: 14px; }
+    [data-dpr="2"] .lagousite-Register .mint-field-core {
+      font-size: 28px; }
+    [data-dpr="3"] .lagousite-Register .mint-field-core {
+      font-size: 42px; }
+  .lagousite-Register .mintui {
+    font-size: 25px; }
+    [data-dpr="2"] .lagousite-Register .mintui {
+      font-size: 50px; }
+    [data-dpr="3"] .lagousite-Register .mintui {
+      font-size: 75px; }
+
+/*# sourceMappingURL=lagousite.css.map */

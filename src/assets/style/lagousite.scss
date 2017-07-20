@@ -1,0 +1,238 @@
+@charset "utf-8";
+@import "base";
+//header
+.mint-header.is-fixed{
+  background:#018d67 ;
+  @include fontFlex(18);
+}
+//footer
+.lagousite-Footers{
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  border-top: 1px solid #e8e8e8;
+  color: #c2cfcc;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  @include boxSizing;
+  @include fontFlex(18);
+}
+.lagousite-Footers>.tabbar{
+  text-align: center;
+}
+.lagousite-Footers>.tabbar>ul>.tab-item{
+  color:#c2cfcc;;
+  list-style: none;
+  background-color: #f6f6f6;
+  width:calc(100%/3);
+  height: 45px;
+  text-align: center;
+  @include boxSizing;
+  padding-left: 18px;
+  float: left;
+}
+.lagousite-Footers>.tabbar>ul>.tab-item:hover{
+  background-color: #e7f3f0;
+}
+.lagousite-Footers>.tabbar>ul>.tab-item>p{
+  width: 24px;
+  height: 24px;
+  margin: 7px auto;
+  background: url(../../assets/img/icon2.png) no-repeat -30px 4.5px;
+  background-size: 250px 250px;
+  float: left;
+}
+.lagousite-Footers>.tabbar>ul>.tab-item:hover>p{
+  margin: 14px auto;
+  background: url(../../assets/img/icon2.png) no-repeat -30px -18.5px;
+  background-size: 250px 250px;
+}
+.lagousite-Footers>.tabbar>ul>.tab-item>span{
+  margin: 0 auto;
+  float: left;
+}
+.lagousite-Footers>.tabbar>ul>.tab-item:hover span{
+  color: #00b38a;
+}
+.lagousite-Footers>.tabbar>ul>.tab-item-two>p{
+  background: url(../../assets/img/icon2.png) no-repeat -9px 2.5px;
+  background-size: 250px 300px;
+}
+.lagousite-Footers>.tabbar>ul>.tab-item-two:hover>p{
+  background: url(../../assets/img/icon2.png) no-repeat -9px -18.5px;
+  background-size: 250px 250px;
+}
+.lagousite-Footers>.tabbar>ul>.tab-item-three>p{
+  background: url(../../assets/img/icon2.png) no-repeat -47px 4.5px;
+  background-size: 250px 250px;
+}
+.lagousite-Footers>.tabbar>ul>.tab-item-three:hover>p{
+  margin: 14px auto;
+  background: url(../../assets/img/icon2.png) no-repeat -47px -18.5px;
+  background-size: 250px 250px;
+}
+//index
+.lagousite-index{
+  padding: 15px ;
+}
+.lagousite-index .HeaderPortrait>p{
+  height: 81px;
+  width: 81px;
+  margin: 60px auto;
+  -webkit-border-radius: 40.5px;
+  -moz-border-radius: 40.5px;
+  border-radius: 40.5px;
+  @include backgroundClip;
+  overflow: hidden;
+  background-color: #f6f6f6;
+
+}
+.lagousite-index .HeaderPortrait>p>span{
+  width: 72px;
+  height: 72px;
+  display: block;
+  margin: 4px 0 0 4px;
+  -webkit-border-radius: 36px;
+  -moz-border-radius: 36px;
+  border-radius: 36px;
+  @include backgroundClip
+}
+.lagousite-index .HeaderPortrait>a {
+  color: #00b38a;
+  font-size: 16px;
+  position: absolute;
+  right: 15px;
+  top: 60px;
+  text-decoration: none;
+}
+.lagousite-index .deliver>ul>li{
+  list-style: none;
+  float: left;
+  width: calc((100% - 15px)/2);
+  height: 86px;
+  background:#1fc8a1 ;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 86px;
+  margin-right: 15px;
+  color: #FFF;
+  @include fontFlex(18);
+}
+.lagousite-index .deliver>ul>.active{
+  margin-right: 0;
+}
+.lagousite-index .SignOut{
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #1fc8a1;
+  color: #fff;
+  @include fontFlex(18);
+  clear: both;
+}
+ //enroll
+.lagousite-Enroll {
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  @include boxSizing;
+  .username {
+    height: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .email {
+    height: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .password {
+    height: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .enroll {
+    height: 1.3rem;
+    background: #0ac599;
+    color: #FFF;
+    margin-top: 0.266rem;
+    @include fontFlex(20);
+  }
+  .noAccount {
+    margin-top: 0.4rem;
+    @include fontFlex(12);
+    color: #0ac599;
+    a {
+      color: #0ac599;
+    }
+  }
+  .register-but {
+    text-decoration: none;
+  }
+  .register {
+    height: 1.3rem;
+    background: #018d67;
+    border: 1px solid #0ac599;
+    margin-top: 0.8rem;
+    @include fontFlex(20);
+    color: #fff;
+  }
+  .mint-field-core {
+    @include fontFlex(14);
+  }
+  .mintui{
+    @include fontFlex(25);
+  }
+}
+//Register
+.lagousite-Register {
+  width: 95%;
+  height: 100%;
+  margin: 20px auto;
+  @include boxSizing;
+  .username {
+    height: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .email {
+    height: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .password {
+    height: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .enroll {
+    height: 1.3rem;
+    background: #0ac599;
+    color: #FFF;
+    margin-top: 0.266rem;
+    @include fontFlex(20);
+  }
+  .noAccount {
+    margin-top: 0.4rem;
+    @include fontFlex(12);
+    color: #0ac599;
+    a {
+      color: #0ac599;
+    }}
+
+  .register-but {
+    text-decoration: none;
+  }
+  .register {
+    height: 1.3rem;
+    background: #018d67;
+    border: 1px solid #0ac599;
+    margin-top: 0.8rem;
+    @include fontFlex(20);
+    color: #fff;
+  }
+  .mint-field-core {
+    @include fontFlex(14);
+  }
+  .mintui{
+    @include fontFlex(25);
+  }
+}
