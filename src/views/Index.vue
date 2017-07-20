@@ -2,7 +2,7 @@
     <div class="contern">
 
         <div class="HeaderPortrait">
-            <span v-model="session.name" class="control"  value="session.name" />></span>
+            <!--<span v-model="session.name" class="control"  value="session.name" /></span>-->
             <p>
                 <span></span>
             </p>
@@ -31,7 +31,7 @@
         components: {
             Headers,
             Footers
-        }
+        },
                 data () {
             return {
                 session: {
@@ -41,7 +41,9 @@
         },
         mounted(){
             var self = this;
-            self.$http.post('http://localhost:3000/session').then(function (res) {
+            self.$http.post('session',{
+
+            }).then(function (res) {
                 console.log(res);
 
             }).catch(function (err) {

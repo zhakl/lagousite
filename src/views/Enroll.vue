@@ -35,11 +35,12 @@
             },
             fetchData(){
                 var self = this;
-                self.$http.post('http://localhost:3000/login', {
+                self.$http.post('login', {
                         username: self.username,
                         password: self.password
                     }
                 ).then(function (res) {
+                    console.log(res);
                     if (res.data.status) {
                         if (!res.data.data.success) {
                             MessageBox('提示', res.data.data.msg)

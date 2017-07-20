@@ -27,7 +27,7 @@ const router = new VueRouter({
 })
 Vue.prototype.$http = axios  //其他页面在使用axios的时候直接  this.$http就可以了
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
-axios.defaults.baseURL = 'http://localhost:3000/';
+axios.defaults.baseURL = document.location.origin + '/';
 new Vue({
     el: '#app',
     router,

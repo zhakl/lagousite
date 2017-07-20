@@ -29,9 +29,6 @@ export default {
 
 }
 </script>
-<style scoped="">
+<style scoped>
     @import "../assets/style/Footer.css";
-    .wrap{
-
-    }
 </style>
