@@ -1,5 +1,5 @@
 <template>
-    <div class="wrap enroll">
+    <div class="lagousite-Enroll enroll">
         <mt-field placeholder="请输入手机号或者用户名" type="text" class="username" v-model="username"></mt-field>
         <mt-field placeholder="请输入密码" type="password" class="password" v-model="password"></mt-field>
         <mt-button size="large" class="enroll" @click.stop="storeAddressEnroll()">登录</mt-button>
@@ -57,7 +57,7 @@
     }
 </script>
 <style scoped>
-    @import '../assets/style/Enroll.css';
+    @import '../assets/style/lagousite.css';
     .enroll{
         padding: 0.5rem 0;
     }

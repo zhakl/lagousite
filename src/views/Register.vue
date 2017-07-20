@@ -1,5 +1,5 @@
 <template>
-    <div class="wrap">
+    <div class="lagousite-Register">
         <mt-field placeholder="请输入用户名" class="username" v-model="username"></mt-field>
         <mt-field placeholder="手机号" type="email" class="email" v-model="phone"></mt-field>
         <template v-if="flag">
@@ -74,7 +74,7 @@
     }
 </script>
 <style scoped>
-    @import '../assets/style/index.css';
+    @import '../assets/style/lagousite.css';
     .password{
         position: relative;
     }

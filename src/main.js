@@ -6,8 +6,6 @@ import VueRouter from 'vue-router'
 import 'mint-ui/lib/style.css'
 Vue.use(MinUi)
 Vue.use(VueRouter)
-
-
 const Enroll = resolve => require(['./views/Enroll.vue'], resolve)
 const Index = resolve => require(['./views/Index.vue'], resolve)
 const Register = resolve => require(['./views/Register.vue'], resolve)

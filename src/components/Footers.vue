@@ -1,5 +1,5 @@
 <template>
-    <div class="wrap">
+    <div class="lagousite-Footers">
         <div class="tabbar"v-model="selected">
             <ul>
                 <li class="tab-item ">

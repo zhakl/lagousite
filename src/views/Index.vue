@@ -1,20 +1,18 @@
 <template>
-    <div class="contern">
-
+    <div class="lagousite-index">
         <div class="HeaderPortrait">
-            <span v-model="session.username" class="control"  value="session.username" ></span>
             <p>
-                <span></span>
+                <span v-model="username" class="control" value="username"></span>
             </p>
             <a href="#">简历></a>
         </div>
         <div class="deliver">
-           <ul>
-               <li>投递</li>
-               <li class="active">面试</li>
-               <li>邀约</li>
-               <li class="active">收藏</li>
-           </ul>
+            <ul>
+                <li>投递</li>
+                <li class="active">面试</li>
+                <li>邀约</li>
+                <li class="active">收藏</li>
+            </ul>
         </div>
         <div class="SignOut">
             <p>退出登录</p>
@@ -24,7 +22,7 @@
     </div>
 </template>
 <script>
-    import {Headers,Footers} from '../components/index'
+    import {Headers, Footers} from '../components/index'
 
     export default {
         name: 'index',
@@ -32,20 +30,15 @@
             Headers,
             Footers
         },
-                data () {
+        data () {
             return {
-                session: {
                     username: '',
-                }
             }
         },
         mounted(){
             var self = this;
-            self.$http.post('session',{
-                username:self.username
-            }).then(function (res) {
-                console.log(res);
-
+            self.$http.post('session').then((res)=>{
+                console.log(res.data)
             }).catch(function (err) {
             });
 
@@ -54,5 +47,6 @@
     }
 </script>
 <style scoped>
-    @import "../assets/style/index.css";
+    @import "../assets/style/lagousite.css";
+
 </style>
