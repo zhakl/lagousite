@@ -2,7 +2,7 @@
     <div class="contern">
 
         <div class="HeaderPortrait">
-            <!--<span v-model="session.name" class="control"  value="session.name" /></span>-->
+            <span v-model="session.username" class="control"  value="session.username" ></span>
             <p>
                 <span></span>
             </p>
@@ -35,14 +35,14 @@
                 data () {
             return {
                 session: {
-                    name: '',
+                    username: '',
                 }
             }
         },
         mounted(){
             var self = this;
             self.$http.post('session',{
-
+                username:self.username
             }).then(function (res) {
                 console.log(res);
 
