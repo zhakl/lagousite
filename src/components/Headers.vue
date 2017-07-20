@@ -4,5 +4,5 @@
 <script>
 </script>
 <style>
-    @import "../assets/style/Herder.css";
+
 </style>

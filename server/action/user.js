@@ -15,7 +15,7 @@ module.exports = function (app) {
                 var ispwd = md5.digest('hex');
                 for (let i = 0; i < data.data.length; i++) {
                     if ((req.body.username == data.data[i].username || req.body.username == data.data[i].phone) && ispwd == data.data[i].password) {
-                        req.session.user = req.body.username;
+                        req.session.user = data.data[i].username;
                         res.send({status: data.status, data: {success: 1, msg: "登录成功"}});
                         loginflag = false;
                         break;

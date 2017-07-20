@@ -2,9 +2,9 @@
     <div class="lagousite-index">
         <div class="HeaderPortrait">
             <p>
-                <span v-model="username" class="control" value="username"></span>
+                <span v-model="username" class="control"></span>
             </p>
-            <a href="#">简历></a>
+            <a href="#">{{username}} 简历></a>
         </div>
         <div class="deliver">
             <ul>
@@ -32,17 +32,20 @@
         },
         data () {
             return {
-                    username: '',
+                username: '',
             }
         },
         mounted(){
-            var self = this;
-            self.$http.post('session').then((res)=>{
-                console.log(res.data)
-            }).catch(function (err) {
-            });
-
-
+            this.getPersondata();
+        },
+        methods: {
+            getPersondata(){
+                this.$http.post('session').then((res) => {
+                    if (res.data.data.success == 1) {
+                        this.username = res.data.data.name;
+                    }
+                });
+            }
         }
     }
 </script>
