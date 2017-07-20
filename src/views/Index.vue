@@ -53,6 +53,6 @@
         }
     }
 </script>
-<style>
+<style scoped>
     @import "../assets/style/index.css";
 </style>
